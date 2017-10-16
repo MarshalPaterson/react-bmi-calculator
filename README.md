@@ -9,3 +9,5 @@ yarn
 yarn startDev
 
 This application is using: React, Redux and Material-ui
+
+Check it out: http://marshalpaterson.info/bmi/
