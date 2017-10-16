@@ -7,3 +7,5 @@ Then run:
 yarn
 
 yarn startDev
+
+This application is using: React, Redux and Material-ui
