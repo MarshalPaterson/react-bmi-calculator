@@ -1,34 +1,3 @@
-// var HtmlWebpackPlugin = require("html-webpack-plugin");
-// var ExtractTextPlugin = require('extract-text-webpack-plugin');
-
-// var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-//   template: __dirname + "/src/index.html",
-//   filename: "index.html",
-//   inject: "body"
-// });
-
-// module.exports = {
-//   entry: __dirname + "/src/App.js",
-//   output: {
-//     path: __dirname + "/public",
-//     filename: "bundle.js"
-//   },
-//   plugins: [HTMLWebpackPluginConfig, new ExtractTextPlugin("styles.css")],
-//   devServer: {
-//     inline: true,
-//     contentBase: "./public",
-//     port: 8080
-//   },
-//   module: {
-//     loaders: [
-//       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
-//       {
-//         test: /\.css/,
-//         loader: ExtractTextPlugin.extract("css-loader")
-//       }
-//     ]
-//   }
-// };
 module.exports = {
   context: __dirname,
   entry: {
