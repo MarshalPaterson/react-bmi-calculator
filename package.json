@@ -5,7 +5,9 @@
   "author": "Marshal Paterson",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "startDev": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "start": "node ./src/index.jsx"
   },
   "homepage": "",
   "devDependencies": {
