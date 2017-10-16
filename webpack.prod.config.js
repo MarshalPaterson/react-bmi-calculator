@@ -4,16 +4,19 @@ const webpack = require('webpack')
 module.exports = {
   devtool: 'source-map',
 
-  entry: {
-    jsx: "./src/index.jsx",
-    css: "./src/styles.css",
-    html: "./src/index.html"
-  },
+  entry: [
+    'webpack-hot-middleware/client',
+    './src/index'
+  ],
 
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js',
     publicPath: '/public/'
+  },
+
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   },
 
   plugins: [
