@@ -7,7 +7,7 @@ module.exports = {
   entry: {
     jsx: "./src/index.jsx",
     css: "./src/styles.css",
-    html: "./src/index.html",
+    html: "./src/index.html"
   },
 
   output: {
