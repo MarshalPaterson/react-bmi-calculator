@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: __dirname + "/static",
     filename: "bundle.js",
+    publicPath: '/static/'
   },
   module: {
     preLoaders: [
