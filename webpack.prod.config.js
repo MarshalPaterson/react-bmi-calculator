@@ -4,10 +4,11 @@ const webpack = require('webpack')
 module.exports = {
   devtool: 'source-map',
 
-  entry: [
-    'webpack-hot-middleware/client',
-    './src/index'
-  ],
+  entry: {
+    jsx: "./src/index.jsx",
+    css: "./src/styles.css",
+    html: "./src/index.html",
+  },
 
   output: {
     path: path.join(__dirname, 'public'),

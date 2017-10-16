@@ -6,4 +6,4 @@ Then run:
 
 yarn
 
-yarn start
+yarn startDev
